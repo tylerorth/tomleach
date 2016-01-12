@@ -1,0 +1,36 @@
+.header {
+  margin-top:15px;
+}
+
+.header-content {
+   text-align: center;
+}
+
+.header-text {
+  display: inline;
+  font-size: 25px; 
+}
+
+.header-text:first-child {
+  margin-right: 40px;
+}
+
+.navbar-default {
+  margin: 35px auto;
+  width: 545px;
+  background-color:transparent;
+  border-color:transparent;
+}
+
+.navbar-nav>li>a {
+  border-right:2px solid black;
+  padding:0px 15px;
+}
+
+.navbar-nav>li.no-border>a {
+  border-right:none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color:transparent;
+}
